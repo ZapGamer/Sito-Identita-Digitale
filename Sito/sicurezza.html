@@ -11,26 +11,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="animate__animated animate__fadeIn">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src = "./src/image2.ico" style="width:50px ;"> Identità Digitale</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html#benefici">Aspetti</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./come-ottenere.html">Come Ottenerla</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./sicurezza.html">Sicurezza</a>
-                </li>
-            </ul>
+
+    <nav data-bs-theme="dark">
+        <div class="bg-dark collapse" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="text-white col-sm-8 col-md-7 py-4">
+                <h4 style="color: black;">Info developers:</h4>
+                <p>Sito sviluppato dal gruppo 6</p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 style="color: black;">Link utili:</h4>
+                <ul class="list-unstyled">
+                  <li><a href="./index.html" class="text-decoration-none nav-link link-hover">Home</a></li>
+                  <li><a href="./index.html#benefici" class="text-decoration-none nav-link link-hover">Aspetti</a></li>
+                  <li><a href="./come-ottenere.html" class="text-decoration-none nav-link link-hover">Come Ottenerla?</a></li>
+                  <li><a href="./sicurezza.html" class="text-decoration-none nav-link link-hover">Sicurezza</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container-fluid" style="display: flex; align-items: center;">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <img style="max-height: 64px;" src="./src/image2.ico" alt="">
+                <p style="padding-top: 20px;">Identità Digitale</p>
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon show" id="navbarHeader"></span>
+                <span class="collapse" id="navbarHeader"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" style="fill:gray;"><path d="M21 5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5zm-4.793 9.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"></path></svg></span>
+            </button>
+          </div>
         </div>
     </nav>
 
@@ -40,7 +52,7 @@
     </header>
 
     <section class="image-class2 container mt-5 mb-5 animate__animated animate__rollIn text-center">
-        <img style="width: 600px;" src="./src/id_2.jpg" alt="foto identità">
+        <img class="image-class2" src="./src/id_2.jpg" alt="foto identità">
     </section>
 
     <section class="container mt-5 mb-5">
@@ -74,5 +86,6 @@
         <p>&copy; 2024 Identità Digitale. Tutti i diritti riservati.</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

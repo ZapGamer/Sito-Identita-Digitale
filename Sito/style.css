@@ -1,11 +1,46 @@
 .image-class {
     animation-duration: 2.5s;
+    width: 600px;
 }
 
 .image-class2 {
     animation-duration: 2s;
+    width: 600px;
 }
 
 .image-class3 {
     animation-duration: 1.5s;
+    width: 600px;
+}
+
+.link-hover {
+    color: white;
+}
+
+.link-hover:hover {
+    color: yellow;
+}
+
+@media (max-width: 768px){
+    .image-class, .image-class2, .image-class3{
+        width: 500px;
+    }
+}
+
+@media (max-width: 576px){
+    .image-class, .image-class2, .image-class3{
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px){
+    .image-class, .image-class2, .image-class3{
+        width: 350px;
+    }
+}
+
+@media (max-width: 400px){
+    .image-class, .image-class2, .image-class3{
+        width: 300px;
+    }
 }
