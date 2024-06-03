@@ -1,25 +1,25 @@
 const claims = [
-    { statement: "Le identità digitali sono sempre sicure e non possono essere rubate.", isTrue: false },
-    { statement: "Solo le password sono sufficienti per proteggere un'identità digitale.", isTrue: false },
-    { statement: "L'identità digitale è un concetto recente, nato con l'avvento di internet.", isTrue: true },
-    { statement: "Le identità digitali possono essere create solo da individui privati, non da organizzazioni.", isTrue: false },
-    { statement: "L'autenticazione a due fattori migliora la sicurezza dell'account.", isTrue: true },
-    { statement: "Il phishing è un tentativo di ottenere informazioni sensibili spacciandosi per un ente affidabile.", isTrue: true },
-    { statement: "Tutti i siti web con HTTP sono sicuri.", isTrue: false },
-    { statement: "Gli hacker non possono accedere alle tue informazioni tramite Wi-Fi pubblico.", isTrue: false },
-    { statement: "I dati biometrici come impronte digitali sono infallibili.", isTrue: false },
-    { statement: "Le identità digitali possono essere utilizzate per accedere a servizi online.", isTrue: true },
-    { statement: "Le identità digitali spesso richiedono l'uso di password complesse per la protezione.", isTrue: true },
-    { statement: "Le identità digitali possono essere rubate tramite attacchi di phishing.", isTrue: true },
-    { statement: "Le identità digitali possono essere gestite da organizzazioni con scopi specifici.", isTrue: true },
-    { statement: "La compromissione di un'identità digitale può danneggiare la reputazione di una persona o di un'azienda.", isTrue: true },
-    { statement: "La compromissione di un'identità digitale può causare panico e confusione nella popolazione.", isTrue: true },
-    { statement: "Verificare l'autenticità dei siti web è importante per proteggere l'identità digitale.", isTrue: true },
-    { statement: "Le identità digitali possono contenere informazioni sensibili e personali.", isTrue: true },
-    { statement: "Esistono organizzazioni dedicate alla protezione delle identità digitali.", isTrue: true },
-    { statement: "Le identità digitali possono essere utilizzate per propaganda politica.", isTrue: true }
+    { statement: "Le identità digitali non possono essere violate grazie alla tecnologia avanzata.", isTrue: false },
+    { statement: "L'utilizzo di sole password è una protezione adeguata per le identità digitali.", isTrue: false },
+    { statement: "L'idea di identità digitale esisteva già prima di internet.", isTrue: false },
+    { statement: "Solo gli individui possono creare identità digitali, non le aziende.", isTrue: false },
+    { statement: "L'uso di autenticazione a due fattori aumenta significativamente la sicurezza degli account.", isTrue: true },
+    { statement: "Il phishing è una tecnica usata per rubare dati personali fingendo di essere un'istituzione fidata.", isTrue: true },
+    { statement: "I siti web con HTTP sono sempre affidabili e sicuri.", isTrue: false },
+    { statement: "Gli hacker non possono ottenere i tuoi dati se utilizzi una rete Wi-Fi pubblica.", isTrue: false },
+    { statement: "Le impronte digitali e altri dati biometrici sono infallibili per la sicurezza.", isTrue: false },
+    { statement: "Le identità digitali permettono l'accesso a vari servizi online.", isTrue: true },
+    { statement: "Per proteggere le identità digitali, è importante utilizzare password complesse.", isTrue: true },
+    { statement: "Le identità digitali sono completamente sicure contro gli attacchi di phishing.", isTrue: false },
+    { statement: "Organizzazioni e aziende possono gestire identità digitali per scopi specifici.", isTrue: true },
+    { statement: "Un'identità digitale compromessa può danneggiare gravemente la reputazione di un individuo o di un'azienda.", isTrue: true },
+    { statement: "Il furto di identità digitale non causa mai panico o confusione tra le persone.", isTrue: false },
+    { statement: "Verificare l'autenticità di un sito web è cruciale per la protezione dell'identità digitale.", isTrue: true },
+    { statement: "Le identità digitali possono includere informazioni sensibili e personali.", isTrue: true },
+    { statement: "Non esistono organizzazioni che si occupano della protezione delle identità digitali.", isTrue: false },
+    { statement: "Le identità digitali non vengono mai utilizzate per scopi di propaganda politica.", isTrue: false },
+    { statement: "La gestione sicura delle identità digitali richiede aggiornamenti costanti delle misure di sicurezza.", isTrue: true }
 ];
-
 
 let currentClaimIndex = 0;
 let score = 0;
@@ -91,4 +91,3 @@ function back() {
 }
 
 displayNextClaim();
-
